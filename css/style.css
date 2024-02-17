@@ -1,0 +1,218 @@
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background: #fff;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+/* ------------------------------------Header ----------------------------*/ 
+
+.part-black {
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2e2f42;
+}
+
+.logo {
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+
+.nav-header {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.nav-header:hover,
+.nav-header:focus {
+    color: #404bbf;
+}
+
+.address-style {
+    font-style:normal;
+
+}
+
+ .contacts {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+ }
+
+.contacts:hover,
+.contacts:focus {
+    color: #404bbf;
+}
+
+
+/* ------------------------------------/Header ---------------------------------*/
+
+
+/* -------------------------------------main ---------------------------------------*/
+/* ---------------------------------title section----------------------------------- */
+
+.first-section {
+    background-color: #2e2f42;
+}
+.title-effective-solution {
+font-family: "Roboto", sans-serif;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #fff;
+}
+
+.button-order { 
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+background: #4d5ae5;
+}
+
+.button-order:hover,
+.button-order:focus {
+    background: #404bbf;
+}
+
+/* ---------------------------------/title section----------------------------------- */
+
+/* ----------------------------------Our Benefits------------------------------------*/
+
+.title-our-benefits {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.text-our-benefits {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* ----------------------------------/Our Benefits------------------------------------*/
+
+/* ----------------------------------Our Team------------------------------------*/
+.our-team {
+    background-color: #F4F4FD;
+}
+
+.backcolor-photo {
+    background-color: #FFFFFF;
+}
+
+.text-our-team {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.name-our-team {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.proffesion {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* ----------------------------------/Our Team------------------------------------*/
+
+/* ----------------------------------Our Portfolio------------------------------------*/
+.title-our-portfolio {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.name-app {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.about-app {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* ----------------------------------/Our Portfolio------------------------------------*/
+
+/* ---------------------------------- Footer ------------------------------------*/
+.footer {
+    background-color: #2e2f42;
+}
+
+.part-white{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd
+}
+.text-footer {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
+/* ---------------------------------- /Footer ------------------------------------*/
