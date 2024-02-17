@@ -5,9 +5,29 @@ body {
     background: #fff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 ul,
 ol {
     list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 a {
@@ -18,8 +38,42 @@ button {
     cursor: pointer;
 }
 
+.container {
+width: 1156px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+}
 
 /* ------------------------------------Header ----------------------------*/ 
+
+.header-class {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav {
+display: flex;
+align-items: center;
+}
+
+.ul-nav-header {
+display: flex;
+gap: 40px;
+
+}
+
+.ul-contacts-header {
+    display: flex;
+    gap: 40px;
+}
+
 
 .part-black {
 font-family: "Raleway", sans-serif;
@@ -39,6 +93,8 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+
+margin-right: 76px;
 }
 
 .nav-header {
@@ -48,6 +104,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
+
 }
 
 .nav-header:hover,
@@ -57,7 +114,7 @@ color: #2e2f42;
 
 .address-style {
     font-style:normal;
-
+    
 }
 
  .contacts {
@@ -80,6 +137,13 @@ color: #2e2f42;
 /* -------------------------------------main ---------------------------------------*/
 /* ---------------------------------title section----------------------------------- */
 
+.title-section-container {
+padding-left: 330px;
+padding-right: 330px;
+padding-top: 188px;
+padding-bottom: 292px;
+}
+
 .first-section {
     background-color: #2e2f42;
 }
@@ -90,6 +154,9 @@ line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: #fff;
+
+max-width: 496px;
+margin-bottom: 48px;
 }
 
 .button-order { 
@@ -100,6 +167,17 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
 background: #4d5ae5;
+
+border-radius: 4px;
+border: none;
+min-width: 169px;
+height: 56px;
+padding-left: 32px;
+padding-right: 32px;
+padding-top: 16px;
+padding-bottom: 16px;
+display: block;
+margin: auto;
 }
 
 .button-order:hover,
@@ -111,6 +189,20 @@ background: #4d5ae5;
 
 /* ----------------------------------Our Benefits------------------------------------*/
 
+.container-our-benefits {
+
+}
+
+.ul-our-benefits {
+display: flex;
+margin-left: 0;
+margin-right: 0;
+}
+
+.li-our-benefits {
+
+}
+
 .title-our-benefits {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -118,6 +210,7 @@ background: #4d5ae5;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    
 }
 
 .text-our-benefits {
