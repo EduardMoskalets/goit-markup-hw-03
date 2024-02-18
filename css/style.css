@@ -382,8 +382,6 @@ margin-bottom: 32px;
 
 
 .footer-container {
-display: flex;
-flex-direction: column;
 padding-top: 100px;
 padding-bottom: 100px;
 }
