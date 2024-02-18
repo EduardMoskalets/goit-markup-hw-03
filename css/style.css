@@ -48,8 +48,6 @@ margin: 0 auto;
 /* ------------------------------------Header ----------------------------*/ 
 
 .header-class {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -105,6 +103,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
+padding-top: 24px;
+padding-bottom: 24px;
 
 }
 
@@ -140,10 +140,8 @@ color: #2e2f42;
 /* ---------------------------------title section----------------------------------- */
 
 .title-section-container {
-padding-left: 330px;
-padding-right: 330px;
 padding-top: 188px;
-padding-bottom: 292px;
+padding-bottom: 188px;
 }
 
 .first-section {
@@ -156,6 +154,7 @@ line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: #fff;
+
 
 max-width: 496px;
 margin-bottom: 48px;
@@ -372,7 +371,7 @@ gap: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    
+
     display: block;
     max-width: 264px;
     height: 72px;
