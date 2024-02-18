@@ -140,7 +140,7 @@ padding-bottom: 24px;
 /* ---------------------------------title section----------------------------------- */
 
 .title-section-container {
-padding: 188px 0;
+padding: 188px 0px;
 
 }
 
@@ -192,6 +192,12 @@ margin: auto;
 
 /* ----------------------------------Our Benefits------------------------------------*/
 
+
+
+.our-benefits {
+visibility: hidden;
+}
+
 .container-our-benefits {
 display: flex;
 margin-bottom: 120px;
@@ -203,13 +209,12 @@ padding-right: 0;
 
 .ul-our-benefits {
 display: flex;
-margin-left: 0;
-margin-right: 0;
 gap: 24px;
+
 }
 
 .li-our-benefits {
-
+width: calc ((100%-72px)/4)
 }
 
 .title-our-benefits {
@@ -219,6 +224,8 @@ gap: 24px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    
+    margin-bottom: 8px;
     
 }
 
