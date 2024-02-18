@@ -269,22 +269,11 @@ width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
 }
 
-.div-mark-g {
+.div-nick-name {
 padding: 32px 0;
 
 }
 
-.div-tom-f {
-padding: 32px 0;
-}
-
-.div-camila-g {
-padding: 32px 0;
-}
-
-.div-daniel-w {
-padding: 32px 0;
-}
 
 .text-our-team {
     font-family: "Roboto", sans-serif;
