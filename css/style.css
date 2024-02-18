@@ -332,6 +332,7 @@ gap: 24px;
 .li-our-porfolio {
     max-width: 360px;
     height: 420px;
+    row-gap: 48px;
 }
 
 .img-our-portfolio {
@@ -363,7 +364,7 @@ border-top: none;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    
+
     margin-bottom: 8px;
 
 }
