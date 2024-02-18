@@ -39,11 +39,10 @@ button {
 }
 
 .container {
-width: 1156px;
+width: 1158px;
 padding-left: 15px;
 padding-right: 15px;
-margin-left: auto;
-margin-right: auto;
+margin: 0 auto;
 }
 
 /* ------------------------------------Header ----------------------------*/ 
@@ -51,11 +50,12 @@ margin-right: auto;
 .header-class {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
 .header-nav {
@@ -66,7 +66,8 @@ align-items: center;
 .ul-nav-header {
 display: flex;
 gap: 40px;
-
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 .ul-contacts-header {
@@ -114,6 +115,7 @@ color: #2e2f42;
 
 .address-style {
     font-style:normal;
+    margin-left: auto;
     
 }
 
@@ -190,13 +192,19 @@ margin: auto;
 /* ----------------------------------Our Benefits------------------------------------*/
 
 .container-our-benefits {
-
+display: flex;
+margin-bottom: 120px;
+margin-top: 120px;
+padding-left: 0;
+padding-right: 0;
 }
+
 
 .ul-our-benefits {
 display: flex;
 margin-left: 0;
 margin-right: 0;
+gap: 24px;
 }
 
 .li-our-benefits {
@@ -222,12 +230,27 @@ margin-right: 0;
 /* ----------------------------------/Our Benefits------------------------------------*/
 
 /* ----------------------------------Our Team------------------------------------*/
+
+.our-team-container {
+    display: flex;
+    flex-direction: column;
+    height: 732px;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.ul-our-team {
+    display: flex;
+    gap: 24px;
+}
+
 .our-team {
     background-color: #F4F4FD;
 }
 
 .backcolor-photo {
     background-color: #FFFFFF;
+    margin-bottom: 120px;
 }
 
 .text-our-team {
@@ -238,6 +261,10 @@ margin-right: 0;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+
+    margin-top: 120px;
+    margin-bottom: 72px;
+    
 }
 
 .name-our-team {
@@ -247,6 +274,8 @@ margin-right: 0;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .proffesion {
@@ -254,11 +283,33 @@ margin-right: 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 
 /* ----------------------------------/Our Team------------------------------------*/
 
 /* ----------------------------------Our Portfolio------------------------------------*/
+
+
+.our-portfolio-container {
+margin-bottom: 120px;
+}
+
+.ul-our-portfolio {
+display: flex;
+flex-wrap: wrap;
+gap: 24px;
+}
+
+.li-our-porfolio {
+    max-width: 360px;
+    height: 420px;
+}
+
+.img-our-portfolio {
+    margin-bottom: 32px;
+}
+
 .title-our-portfolio {
     font-family: "Roboto", sans-serif;
     font-size: 36px;
@@ -267,6 +318,7 @@ margin-right: 0;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .name-app {
@@ -283,11 +335,25 @@ margin-right: 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-bottom: 32px;
 }
 
 /* ----------------------------------/Our Portfolio------------------------------------*/
 
 /* ---------------------------------- Footer ------------------------------------*/
+
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.down-logo {
+    margin-bottom: 16px;
+}
+
 .footer {
     background-color: #2e2f42;
 }
@@ -306,6 +372,10 @@ margin-right: 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    
+    display: block;
+    max-width: 264px;
+    height: 72px;
 }
 
 /* ---------------------------------- /Footer ------------------------------------*/
