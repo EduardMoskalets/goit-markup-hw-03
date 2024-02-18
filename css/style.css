@@ -313,6 +313,11 @@ padding: 32px 0;
 /* ----------------------------------Our Portfolio------------------------------------*/
 
 
+.section-our-porfolio {
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
 .our-portfolio-container {
 margin-bottom: 120px;
 }
@@ -320,6 +325,7 @@ margin-bottom: 120px;
 .ul-our-portfolio {
 display: flex;
 flex-wrap: wrap;
+row-gap: 48px;
 gap: 24px;
 }
 
@@ -330,6 +336,13 @@ gap: 24px;
 
 .img-our-portfolio {
     margin-bottom: 32px;
+}
+
+.div-name-proffesion {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+
 }
 
 .title-our-portfolio {
@@ -350,6 +363,9 @@ gap: 24px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    
+    margin-bottom: 8px;
+
 }
 
 .about-app {
