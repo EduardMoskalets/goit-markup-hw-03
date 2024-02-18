@@ -326,16 +326,16 @@ margin-bottom: 120px;
 display: flex;
 flex-wrap: wrap;
 gap: 24px;
+row-gap: 48px;
 }
 
 .li-our-porfolio {
-    max-width: 360px;
-    height: 420px;
-    row-gap: 48px;
+max-width: 360px;
+height: 420px;
 }
 
 .img-our-portfolio {
-    margin-bottom: 32px;
+margin-bottom: 32px;
 }
 
 .div-name-proffesion {
@@ -346,34 +346,33 @@ border-top: none;
 }
 
 .title-our-portfolio {
-    font-family: "Roboto", sans-serif;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    text-align: center;
-    color: #2e2f42;
-    margin-bottom: 72px;
+font-family: "Roboto", sans-serif;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+text-align: center;
+color: #2e2f42;
+margin-bottom: 72px;
 }
 
 .name-app {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
 
-    margin-bottom: 8px;
-
+margin-bottom: 8px;
 }
 
 .about-app {
-    font-family: "Roboto", sans-serif;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    margin-bottom: 32px;
+font-family: "Roboto", sans-serif;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+margin-bottom: 32px;
 }
 
 /* ----------------------------------/Our Portfolio------------------------------------*/
