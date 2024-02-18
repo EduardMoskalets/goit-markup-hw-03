@@ -254,15 +254,36 @@ width: calc((100% - 72px) / 4);
 .ul-our-team {
     display: flex;
     gap: 24px;
+    border-radius: 0 0 4px 4px;
 }
 
 .our-team {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .backcolor-photo {
     background-color: #FFFFFF;
     margin-bottom: 120px;
+    border-radius: 0 0 4px 4px;
+}
+
+.div-mark-g {
+padding: 32px 0;
+
+}
+
+.div-tom-f {
+padding: 32px 0;
+}
+
+.div-camila-g {
+padding: 32px 0;
+}
+
+.div-daniel-w {
+padding: 32px 0;
 }
 
 .text-our-team {
