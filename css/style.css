@@ -325,7 +325,6 @@ margin-bottom: 120px;
 .ul-our-portfolio {
 display: flex;
 flex-wrap: wrap;
-row-gap: 48px;
 gap: 24px;
 }
 
