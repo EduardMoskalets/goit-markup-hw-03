@@ -140,7 +140,6 @@ padding-bottom: 24px;
 /* ---------------------------------title section----------------------------------- */
 
 .title-section-container {
-padding: 188px 0px;
 
 }
 
@@ -245,11 +244,8 @@ width: calc((100% - 72px) / 4);
 /* ----------------------------------Our Team------------------------------------*/
 
 .our-team-container {
-    display: flex;
     flex-direction: column;
-    height: 732px;
     align-items: center;
-    margin-bottom: 120px;
 }
 
 .ul-our-team {
@@ -266,7 +262,6 @@ width: calc((100% - 72px) / 4);
 
 .backcolor-photo {
     background-color: #FFFFFF;
-    margin-bottom: 120px;
     border-radius: 0 0 4px 4px;
 }
 
@@ -285,9 +280,7 @@ padding: 32px 0;
     text-align: center;
     color: #2e2f42;
 
-    margin-top: 120px;
     margin-bottom: 72px;
-    
 }
 
 .name-our-team {
@@ -313,6 +306,12 @@ padding: 32px 0;
 
 /* ----------------------------------Our Portfolio------------------------------------*/
 
+.div-li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+}
 
 .section-our-porfolio {
 padding-top: 120px;
@@ -320,23 +319,21 @@ padding-bottom: 120px;
 }
 
 .our-portfolio-container {
-margin-bottom: 120px;
+
 }
 
 .ul-our-portfolio {
 display: flex;
 flex-wrap: wrap;
-gap: 24px;
 row-gap: 48px;
 }
 
 .li-our-porfolio {
-max-width: 360px;
-height: 420px;
+width: calc((100% - 48px) / 3);
 }
 
 .img-our-portfolio {
-margin-bottom: 32px;
+
 }
 
 .div-name-proffesion {
@@ -354,6 +351,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
 color: #2e2f42;
+
 margin-bottom: 72px;
 }
 
@@ -373,7 +371,6 @@ font-family: "Roboto", sans-serif;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-margin-bottom: 32px;
 }
 
 /* ----------------------------------/Our Portfolio------------------------------------*/
@@ -382,8 +379,7 @@ margin-bottom: 32px;
 
 
 .footer-container {
-padding-top: 100px;
-padding-bottom: 100px;
+
 }
 
 .down-logo {
@@ -393,7 +389,8 @@ display: inline-block;
 
 .footer {
 background-color: #2e2f42;
-padding: 100px 0;
+padding-top: 100px;
+padding-bottom: 100px;
 }
 
 .part-white{
